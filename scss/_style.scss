@@ -1,0 +1,281 @@
+header {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  .container {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 21px;
+    h1 {
+      color: #000;
+      font-family: "Exo 2", sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+.container1 {
+  margin-top: 42px;
+  margin-left: 138px;
+  h2 {
+    color: #000;
+    font-family: "Exo 2", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 27px;
+  }
+  .mnishvnelovani {
+    max-width: 1166px;
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    .card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      background-color: #e2dbdb;
+      max-width: 362px;
+      width: 100%;
+      max-height: 952px;
+      height: 100%;
+
+      .backgroundimage {
+        background-image: url(../images/2.png);
+        background-color: white;
+        width: 362px;
+        height: 186px;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .zedan {
+          color: #fff;
+          font-family: "Exo 2", sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+
+      .backgroundimage1 {
+        background-image: url(../images/3.png);
+        background-color: white;
+        width: 362px;
+        height: 186px;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .zedan {
+          color: #fff;
+          font-family: "Exo 2", sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+
+      .backgroundimage2 {
+        background-image: url(../images/4.png);
+        background-color: white;
+        width: 362px;
+        height: 186px;
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .zedan {
+          color: #fff;
+          font-family: "Exo 2", sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+      .ik {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        max-width: 238px;
+        width: 100%;
+        p {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          max-width: 238px;
+          width: 100%;
+          max-height: 36px;
+          height: 100%;
+          color: #8a8787;
+          font-family: "Exo 2", sans-serif;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        .gaertianeba {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: row;
+          max-width: 150px;
+          width: 100%;
+          margin-bottom: 20px;
+          .fa-clock {
+            font-size: 15px;
+            color: #8a8787;
+            margin-left: -80px;
+          }
+          h3 {
+            color: #8a8787;
+            font-family: "Exo 2", sans-serif;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-left: -120px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.container2 {
+  max-width: 1166px;
+  width: 100%;
+  margin-top: 57px;
+  margin-bottom: 36px;
+  margin-left: 138px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  .first {
+    max-height: 948px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    .sawy {
+      color: #000;
+      font-family: "Exo 2", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      margin-bottom: 30px;
+    }
+    .back {
+      background-image: url(../images/r1.png);
+      background-color: white;
+      width: 758px;
+      height: 430px;
+      background-size: cover;
+      position: relative;
+      background-repeat: no-repeat;
+      flex-shrink: 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-bottom: 30px;
+      .libero {
+        color: #fff;
+        font-family: "Exo 2", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+  .damdam {
+    max-width: 758px;
+    width: 100%;
+    max-height: 430px;
+    height: 100%;
+  }
+  .second {
+    max-height: 902px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    .r {
+      margin-bottom: 62px;
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 201px;
+  width: 100%;
+  background-color: #243043;
+  .container3 {
+    max-width: 1000px;
+    width: 100%;
+    max-height: 201px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .dn1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 711px;
+      width: 100%;
+      max-height: 98px;
+      height: 100%;
+      .ox {
+        color: #818687;
+        font-family: "Exo 2", sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 14px;
+      }
+    }
+    .d4 {
+      color: #fff;
+      font-family: "Exo 2", sans-serif;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

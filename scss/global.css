@@ -1,0 +1,420 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+header .container {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 21px;
+}
+header .container h1 {
+  color: #000;
+  font-family: "Exo 2", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container1 {
+  margin-top: 42px;
+  margin-left: 138px;
+}
+.container1 h2 {
+  color: #000;
+  font-family: "Exo 2", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+.container1 .mnishvnelovani {
+  max-width: 1166px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.container1 .mnishvnelovani .card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #e2dbdb;
+  max-width: 362px;
+  width: 100%;
+  max-height: 952px;
+  height: 100%;
+}
+.container1 .mnishvnelovani .card .backgroundimage {
+  background-image: url(../images/2.png);
+  background-color: white;
+  width: 362px;
+  height: 186px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container1 .mnishvnelovani .card .backgroundimage .zedan {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container1 .mnishvnelovani .card .backgroundimage1 {
+  background-image: url(../images/3.png);
+  background-color: white;
+  width: 362px;
+  height: 186px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container1 .mnishvnelovani .card .backgroundimage1 .zedan {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container1 .mnishvnelovani .card .backgroundimage2 {
+  background-image: url(../images/4.png);
+  background-color: white;
+  width: 362px;
+  height: 186px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container1 .mnishvnelovani .card .backgroundimage2 .zedan {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container1 .mnishvnelovani .card .ik {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  max-width: 238px;
+  width: 100%;
+}
+.container1 .mnishvnelovani .card .ik p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 238px;
+  width: 100%;
+  max-height: 36px;
+  height: 100%;
+  color: #8a8787;
+  font-family: "Exo 2", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container1 .mnishvnelovani .card .ik .gaertianeba {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  max-width: 150px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.container1 .mnishvnelovani .card .ik .gaertianeba .fa-clock {
+  font-size: 15px;
+  color: #8a8787;
+  margin-left: -80px;
+}
+.container1 .mnishvnelovani .card .ik .gaertianeba h3 {
+  color: #8a8787;
+  font-family: "Exo 2", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: -120px;
+}
+
+.container2 {
+  max-width: 1166px;
+  width: 100%;
+  margin-top: 57px;
+  margin-bottom: 36px;
+  margin-left: 138px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.container2 .first {
+  max-height: 948px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.container2 .first .sawy {
+  color: #000;
+  font-family: "Exo 2", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.container2 .first .back {
+  background-image: url(../images/r1.png);
+  background-color: white;
+  width: 758px;
+  height: 430px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container2 .first .back .libero {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container2 .damdam {
+  max-width: 758px;
+  width: 100%;
+  max-height: 430px;
+  height: 100%;
+}
+.container2 .second {
+  max-height: 902px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.container2 .second .r {
+  margin-bottom: 62px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 201px;
+  width: 100%;
+  background-color: #243043;
+}
+footer .container3 {
+  max-width: 1000px;
+  width: 100%;
+  max-height: 201px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container3 .dn1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 711px;
+  width: 100%;
+  max-height: 98px;
+  height: 100%;
+}
+footer .container3 .dn1 .ox {
+  color: #818687;
+  font-family: "Exo 2", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 14px;
+}
+footer .container3 .d4 {
+  color: #fff;
+  font-family: "Exo 2", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=global.css.map */
